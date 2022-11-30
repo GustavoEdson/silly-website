@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #131516;
 }
 
 .content {
@@ -11,9 +12,25 @@ body {
 .text {
   font-family: "Poppins", sans-serif;
   word-spacing: 1px;
+  color: #fff;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
+  color: #fff;
+}
+
+h2 {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    display: none;
+  }
+  h2 {
+    display: block;
+  }
 }
