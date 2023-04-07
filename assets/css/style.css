@@ -15,10 +15,9 @@ body {
   color: #fff;
 }
 
-h1,
-h2 {
-  font-family: "Poppins", sans-serif;
+header {
   text-align: center;
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
