@@ -1,5 +1,3 @@
-const text = document.querySelector(".text");
-
 document.addEventListener("mousemove", () => {
-  text.textContent += "Stop moving your mouse! ";
+  document.querySelector(".text").textContent += "Stop moving your mouse! ";
 });
